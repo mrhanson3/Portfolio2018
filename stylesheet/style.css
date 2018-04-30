@@ -1,0 +1,15 @@
+.slicknav_menu {
+	display: inline-block;
+}
+
+
+@media screen and (max-width: 1040em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display: inline-block;
+		padding: 30px;
+	}
+}
