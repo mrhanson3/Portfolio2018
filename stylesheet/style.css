@@ -6,10 +6,11 @@
 @media screen and (max-width: 1040em) {
 	.js #menu {
 		display:none;
+		float: left;
 	}
 	
 	.js .slicknav_menu {
 		display: inline-block;
-		padding: 30px;
+		padding: 3px 10px 1px;
 	}
 }

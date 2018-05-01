@@ -99,6 +99,7 @@
   border-radius: 4px;
   background-color: #222; 
   align-content: left;
+  float: left
 }
 
 .slicknav_nav {
