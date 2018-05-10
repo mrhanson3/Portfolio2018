@@ -21,7 +21,9 @@ A sample transition */
 .ball {
   background: #0097C0;
   border-radius: 50%;
-  position: absolute; top: 200px; left: 180px;
+  position: absolute;
+  top: 10px;
+  left: 180px;
   width: 100px; height: 100px;
 }
 

@@ -11,7 +11,7 @@
    <title>Clayton Hanson</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../stylesheet/portfolio-item.css" rel="stylesheet"> <!--Bootstrap porfolio -->
 
     <!-- Custom styles for this template -->
@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     </head>
     <body>
-
+<div class="btow">
 <ul id="menu">
     
     <li><a href="file:///C:/Users/chanson6/Desktop/Portfolio2018-master/Portfolio2018-master/index.html">Home</a></li>
@@ -33,20 +33,21 @@
     <li><a href="file:///C:/Users/chanson6/Desktop/Portfolio2018-master/Portfolio2018-master/pages/stories.html">Some Stories I Wrote</a></li>
     
 </ul>
-    <div class="ball"></div>
+    <div class="triangle-right"></div>
     <!-- Page Content -->
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">My Portfolio
+      <h1 class="my-4"></br>My Portfolio</h1>
         <!-- <small>Secondary Text</small> -->
-      </h1>
+      
 
       <!-- Portfolio Item Row -->
       <div class="row">
         <div class="col-md-4">
-          <h3 class="my-3">CharlotteFive</h3>
-         <p>CharlotteFive is owned and operated by The Charlotte Observer. The site publishes five stories daily and delivers them to their readers via email each morning.</p> 
+          <div class="my-3">
+            <div class="topHeadline"><h3>CharlotteFive</h3></div>
+         <p>CharlotteFive is owned and operated by The Charlotte Observer. The site publishes five stories daily and delivers them to their readers via email each morning.</p> </div>
           <h4 class="my-3">Project Details</h4>
           <p>I migrated the CharlotteFive site to an updated WordPress theme from a theme that had been discontinued. Part of the work included teaching the staff how to make changes to the template as needed. </p>
           <ul>
@@ -58,8 +59,9 @@
         <div class="col-md-8">
           <img class="img-fluid" src="../images/C5.JPG" alt="">
         </div>
+      
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+</div>
   
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
@@ -68,36 +70,55 @@
 A sample transition */
 
 
-.ball {
+/*.triangle-right {
   transition: 
-    background 2s .5s,
+    border-left 2s .5s,
+    border-top 2s .5s,
+    border-bottom 2s .5s,
     transform 2s .25s;
     
 }
 
-.playing .ball {
-  transform: translateX(450px);
-  background: red;
+.playing .triangle-right {
+  transform: translate(3700%, 0%);
+  background: white;
   transition-timing-function: ease-in;
+  border-top: 15px solid transparent;
+  border-left: 40px solid red;
+  border-bottom: 15px solid transparent
+
+}
+ 
+
+.triangle-right {
+ border-radius: 0%;
+  position: absolute; top: 25px; left: 120px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 40px solid orange;
+  border-bottom: 15px solid transparent
+}*/
+
+.btow {
+  transition:
+  background 3s .5s;
 }
 
-
-
-.ball {
-  background: #0097C0;
-  border-radius: 50%;
-  position: absolute; top: 100px; left: 180px;
-  width: 100px; height: 100px;
+.playing .btow {
+  background: white;
 }
 
-body { background: white;
+body { background: black;
   transition: 
     background 2s .5s,
     transform 2s .25s;
-  background: white;
+  background: black;
   transition-timing-function: ease-in;
   
 }
+
+
 
 /* CP_DoFullRefresh */
     </style>
