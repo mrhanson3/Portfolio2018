@@ -1,15 +1,32 @@
-/*!
- * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
- */
 
-body {
-  padding-top: 54px;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1a1a1a;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.container1:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.col-md-8 {
+	box-shadow: 10px 10px 5px grey;	
 }
