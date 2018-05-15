@@ -12,7 +12,7 @@
   background-color: #1a1a1a;
 }
 
-.container1:hover .overlay {
+.overlay:hover {
   opacity: .9;
 }
 
@@ -29,4 +29,8 @@
 
 .col-md-8 {
 	box-shadow: 10px 10px 5px grey;	
+}
+
+.col-md-3 .col-sm-6 .mb-4 {
+	border: grey;	
 }
